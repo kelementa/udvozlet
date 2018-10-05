@@ -16,7 +16,12 @@ public class Udvozlet {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Üdvözöllek!");
+        Ember ferfi = new Ember("Ádám");
+        Ember no = new Ember("Éva");
+        
+        System.out.println(ferfi.koszont());
+        System.out.println(no.koszont());
+        
     }
     
 }
